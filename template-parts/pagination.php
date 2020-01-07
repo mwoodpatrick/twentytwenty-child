@@ -5,4 +5,7 @@
  * @package twentytwenty-child
  */
 
-wp_pagenavi();
+if ( function_exists( 'wp_pagenavi' ) ) {
+	wp_pagenavi();
+}
+
